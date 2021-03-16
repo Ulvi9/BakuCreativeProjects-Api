@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2u9yWTexlUHOAgi0cCPf9LR5sH5lEFLAhiOgKUTB+LVNX9zfe16B7bvLp+f3lYP39Ixzxe3j+RJPoNnswBOyEw==",
+  "dgSpecHash": "sflMfQjB8ox8CQH8ijTqZiGeQAkw8ZQW70aJOCL7lfmzaAQtNDPlC6Cf1o9BdaAl4ql1Pso1UmBIH21fSz/RvQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\user\\Desktop\\BakuCreativeProjects-Api\\BakuCreativeProjects\\BakuCreativeProjects\\BakuCreativeProjects.csproj",
+  "projectFilePath": "C:\\Users\\user\\Desktop\\BakuCreativeProjects-Api\\BakuCreativeProjects\\bakucreativeprojects\\BakuCreativeProjects.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\user\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",

@@ -25,7 +25,7 @@ namespace BakuCreativeProjects.Controllers
         /// </summary>
         /// <returns></returns>
         // GET: api/<SubCategoryController>
-        //[HttpGet]
+        [HttpGet]
         public async Task<ActionResult<IEnumerable<SubCategoryReturnDto>>> Get()
         {
             var subCategories =await _context.SubCategories

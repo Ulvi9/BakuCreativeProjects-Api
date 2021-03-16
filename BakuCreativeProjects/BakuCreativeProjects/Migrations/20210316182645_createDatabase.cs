@@ -2,7 +2,7 @@
 
 namespace BakuCreativeProjects.Migrations
 {
-    public partial class initialProjects : Migration
+    public partial class createDatabase : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -77,22 +77,31 @@ namespace BakuCreativeProjects.Migrations
             migrationBuilder.InsertData(
                 table: "SubCategories",
                 columns: new[] { "Id", "MainCategoryId", "Name" },
-                values: new object[] { 1, 1, "Ayaqqabi" });
-
-            migrationBuilder.InsertData(
-                table: "SubCategories",
-                columns: new[] { "Id", "MainCategoryId", "Name" },
-                values: new object[] { 2, 1, "Aksesuar" });
+                values: new object[,]
+                {
+                    { 1, 1, "Ayaqqabi" },
+                    { 2, 1, "Aksesuar" },
+                    { 3, 2, "Ayaqqabi" },
+                    { 4, 2, "Aksesuar" },
+                    { 5, 3, "Ayaqqabi" },
+                    { 6, 3, "Aksesuar" }
+                });
 
             migrationBuilder.InsertData(
                 table: "ChildCategories",
                 columns: new[] { "Id", "Name", "SubCategoryId" },
-                values: new object[] { 1, "Sport", 1 });
-
-            migrationBuilder.InsertData(
-                table: "ChildCategories",
-                columns: new[] { "Id", "Name", "SubCategoryId" },
-                values: new object[] { 2, "Klassik", 1 });
+                values: new object[,]
+                {
+                    { 1, "Sport", 1 },
+                    { 4, "Klassik", 1 },
+                    { 7, "Saat", 2 },
+                    { 2, "Sport", 3 },
+                    { 5, "Klassik", 3 },
+                    { 8, "Saat", 4 },
+                    { 3, "Sport", 5 },
+                    { 6, "Klassik", 5 },
+                    { 9, "Saat", 6 }
+                });
 
             migrationBuilder.CreateIndex(
                 name: "IX_ChildCategories_SubCategoryId",

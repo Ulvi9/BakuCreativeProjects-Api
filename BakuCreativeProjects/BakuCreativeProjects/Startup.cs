@@ -29,11 +29,7 @@ namespace BakuCreativeProjects
             {
                 option.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"));
             });
-            services.AddSwaggerGen(opt =>
-            {
-                opt.SwaggerDoc("v1", new OpenApiInfo {Title = "BakuCreativeProjects", Version = "v1"});
-                opt.ResolveConflictingActions(apiDescriptions => apiDescriptions.First());
-            });
+            services.AddSwaggerGen(opt =>  opt.SwaggerDoc("v1", new OpenApiInfo {Title = "BakuCreativeProjects", Version = "v1"}));
             
               services.AddAutoMapper(typeof(MapperProfile));
         }

@@ -47,8 +47,50 @@ namespace BakuCreativeProjects.Migrations
                         new
                         {
                             Id = 2,
+                            Name = "Sport",
+                            SubCategoryId = 3
+                        },
+                        new
+                        {
+                            Id = 3,
+                            Name = "Sport",
+                            SubCategoryId = 5
+                        },
+                        new
+                        {
+                            Id = 4,
                             Name = "Klassik",
                             SubCategoryId = 1
+                        },
+                        new
+                        {
+                            Id = 5,
+                            Name = "Klassik",
+                            SubCategoryId = 3
+                        },
+                        new
+                        {
+                            Id = 6,
+                            Name = "Klassik",
+                            SubCategoryId = 5
+                        },
+                        new
+                        {
+                            Id = 7,
+                            Name = "Saat",
+                            SubCategoryId = 2
+                        },
+                        new
+                        {
+                            Id = 8,
+                            Name = "Saat",
+                            SubCategoryId = 4
+                        },
+                        new
+                        {
+                            Id = 9,
+                            Name = "Saat",
+                            SubCategoryId = 6
                         });
                 });
 
@@ -114,6 +156,30 @@ namespace BakuCreativeProjects.Migrations
                         {
                             Id = 2,
                             MainCategoryId = 1,
+                            Name = "Aksesuar"
+                        },
+                        new
+                        {
+                            Id = 3,
+                            MainCategoryId = 2,
+                            Name = "Ayaqqabi"
+                        },
+                        new
+                        {
+                            Id = 4,
+                            MainCategoryId = 2,
+                            Name = "Aksesuar"
+                        },
+                        new
+                        {
+                            Id = 5,
+                            MainCategoryId = 3,
+                            Name = "Ayaqqabi"
+                        },
+                        new
+                        {
+                            Id = 6,
+                            MainCategoryId = 3,
                             Name = "Aksesuar"
                         });
                 });

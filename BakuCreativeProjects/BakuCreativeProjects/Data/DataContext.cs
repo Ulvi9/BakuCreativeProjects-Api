@@ -42,6 +42,22 @@ namespace BakuCreativeProjects.Data
                  new SubCategory()
                  {
                      Id = 2, Name = "Aksesuar",MainCategoryId = 1
+                 },
+                 new SubCategory()
+                 {
+                     Id = 3, Name = "Ayaqqabi",MainCategoryId =2
+                 },
+                 new SubCategory()
+                 {
+                     Id = 4, Name = "Aksesuar",MainCategoryId = 2
+                 },
+                 new SubCategory()
+                 {
+                     Id = 5, Name = "Ayaqqabi",MainCategoryId =3
+                 },
+                 new SubCategory()
+                 {
+                     Id = 6, Name = "Aksesuar",MainCategoryId = 3
                  }
              ); 
              //ChildCategory
@@ -52,10 +68,49 @@ namespace BakuCreativeProjects.Data
                      SubCategoryId = 1,
                      
                  },
+                
                  new ChildCategory()
                  {
-                     Id = 2, Name = "Klassik",
+                     Id = 2, Name = "Sport",
+                     SubCategoryId = 3,
+                 },
+                 new ChildCategory()
+                 {
+                     Id = 3, Name = "Sport",
+                     SubCategoryId = 5,
+                     
+                 },
+                 new ChildCategory()
+                 {
+                     Id = 4, Name = "Klassik",
                      SubCategoryId = 1,
+                 },
+                 new ChildCategory()
+                 {
+                     Id = 5, Name = "Klassik",
+                     SubCategoryId = 3,
+                     
+                 },
+                 new ChildCategory()
+                 {
+                     Id = 6, Name = "Klassik",
+                     SubCategoryId = 5,
+                 },
+                 new ChildCategory()
+                 {
+                     Id = 7, Name = "Saat",
+                     SubCategoryId = 2,
+                 },
+                 new ChildCategory()
+                 {
+                     Id = 8, Name = "Saat",
+                     SubCategoryId = 4,
+                     
+                 },
+                 new ChildCategory()
+                 {
+                     Id = 9, Name = "Saat",
+                     SubCategoryId = 6,
                  }
              );
          }
