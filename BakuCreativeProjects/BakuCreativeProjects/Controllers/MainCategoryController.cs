@@ -27,7 +27,7 @@ namespace BakuCreativeProjects.Controllers
         [HttpGet]
         public async Task<ActionResult<IEnumerable<MainCategoryReturnDto>>> Get()
         {
-             var mainCategories =await _context.MainCategories
+            var mainCategories =await _context.MainCategories
                 .Include(c => c.SubCategories)
                 .ThenInclude(c => c.ChildCategories).ToListAsync();
              var mapMainCategories = 

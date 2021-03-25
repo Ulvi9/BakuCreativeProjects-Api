@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user\\Desktop\\Misir\\BakuCreativeProjects-Api\\BakuCreativeProjects\\BakuCreativeProjects\\BakuCreativeProjects.csproj": {}
+    "C:\\Users\\user\\Desktop\\Misir\\BakuCreativeProjects-Api\\BakuCreativeProjects\\bakucreativeprojects\\BakuCreativeProjects.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user\\Desktop\\Misir\\BakuCreativeProjects-Api\\BakuCreativeProjects\\BakuCreativeProjects\\BakuCreativeProjects.csproj": {
+    "C:\\Users\\user\\Desktop\\Misir\\BakuCreativeProjects-Api\\BakuCreativeProjects\\bakucreativeprojects\\BakuCreativeProjects.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\Desktop\\Misir\\BakuCreativeProjects-Api\\BakuCreativeProjects\\BakuCreativeProjects\\BakuCreativeProjects.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Desktop\\Misir\\BakuCreativeProjects-Api\\BakuCreativeProjects\\bakucreativeprojects\\BakuCreativeProjects.csproj",
         "projectName": "BakuCreativeProjects",
-        "projectPath": "C:\\Users\\user\\Desktop\\Misir\\BakuCreativeProjects-Api\\BakuCreativeProjects\\BakuCreativeProjects\\BakuCreativeProjects.csproj",
+        "projectPath": "C:\\Users\\user\\Desktop\\Misir\\BakuCreativeProjects-Api\\BakuCreativeProjects\\bakucreativeprojects\\BakuCreativeProjects.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\Desktop\\Misir\\BakuCreativeProjects-Api\\BakuCreativeProjects\\BakuCreativeProjects\\obj\\",
+        "outputPath": "C:\\Users\\user\\Desktop\\Misir\\BakuCreativeProjects-Api\\BakuCreativeProjects\\bakucreativeprojects\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",

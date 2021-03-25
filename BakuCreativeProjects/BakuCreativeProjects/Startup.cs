@@ -39,6 +39,8 @@ namespace BakuCreativeProjects
               
               //addingServices
               services.AddScoped<IAuthRepository, AuthRepository>();
+              services.AddScoped<IProductRepository, ProductRepository>();
+
               services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).
                   AddJwtBearer(opt =>
                       opt.TokenValidationParameters = new TokenValidationParameters

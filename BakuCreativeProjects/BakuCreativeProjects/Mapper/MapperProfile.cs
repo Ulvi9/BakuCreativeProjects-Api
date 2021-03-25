@@ -2,6 +2,7 @@
 using AutoMapper;
 using BakuCreativeProjects.DTO;
 using BakuCreativeProjects.DTO.ChildCategory;
+using BakuCreativeProjects.DTO.Product;
 using BakuCreativeProjects.DTO.SubCategory;
 using BakuCreativeProjects.Models;
 
@@ -36,9 +37,22 @@ namespace BakuCreativeProjects.Mapper
                 .ForMember(x => x.SubCategory, o =>
                     o.MapFrom(x => x.SubCategory.Name))
                 .ForMember(x => x.MainCategory, o =>
-                    o.MapFrom(x => x.SubCategory.MainCategory.Name));;
+                    o.MapFrom(x => x.SubCategory.MainCategory.Name))
+                .ForMember(x => x.Productss, o =>
+                    o.MapFrom(x => x.Products.Select(p=>p.Name)));
             CreateMap<ChildCategory, ChildCategoryCreateDto>().ReverseMap();
             CreateMap<ChildCategory, ChildCategoryUpdateDto>().ReverseMap();
+            
+            //product
+            CreateMap<Product, ProductReturnDto>()
+                .ForMember(p => p.ChildCategory, c =>
+                    c.MapFrom(p => p.ChildCategory.Name));
+            CreateMap<ProductCreateDto,Product>().ReverseMap();
+            CreateMap<ProductUpdateDto,Product>().ReverseMap();
+
+            
+
+
         }
     }
 }

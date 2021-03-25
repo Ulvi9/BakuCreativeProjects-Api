@@ -29,7 +29,8 @@ namespace BakuCreativeProjects.Controllers
         public async Task<ActionResult<IEnumerable<SubCategoryReturnDto>>> Get()
         {
             var subCategories =await _context.SubCategories
-                .Include(c => c.ChildCategories).ToListAsync();
+                .Include(c => c.ChildCategories)
+                .ToListAsync();
             var mapSubCategories = 
                 _mapper.Map<IEnumerable<SubCategory>, IEnumerable<SubCategoryReturnDto>>(subCategories);
             return Ok(mapSubCategories);

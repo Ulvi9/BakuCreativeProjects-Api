@@ -16,6 +16,7 @@
           <e p="BaseController.cs" t="Include" />
           <e p="ChildCategoryController.cs" t="Include" />
           <e p="MainCategoryController.cs" t="Include" />
+          <e p="ProductController.cs" t="Include" />
           <e p="SubCategoryController.cs" t="Include" />
         </e>
         <e p="Data" t="Include">
@@ -32,6 +33,11 @@
             <e p="MainCategoryCreateDto.cs" t="Include" />
             <e p="MainCategoryReturnDto.cs" t="Include" />
             <e p="MainCategoryUpdateDto.cs" t="Include" />
+          </e>
+          <e p="Product" t="Include">
+            <e p="ProductCreateDto.cs" t="Include" />
+            <e p="ProductReturnDto.cs" t="Include" />
+            <e p="ProductUpdateDto.cs" t="Include" />
           </e>
           <e p="SubCategory" t="Include">
             <e p="SubCategoryCreateDto.cs" t="Include" />
@@ -52,11 +58,14 @@
           <e p="20210316182645_createDatabase.Designer.cs" t="Include" />
           <e p="20210324135204_addUserModel.cs" t="Include" />
           <e p="20210324135204_addUserModel.Designer.cs" t="Include" />
+          <e p="20210325074300_addinProductTable.cs" t="Include" />
+          <e p="20210325074300_addinProductTable.Designer.cs" t="Include" />
           <e p="DataContextModelSnapshot.cs" t="Include" />
         </e>
         <e p="Models" t="Include">
           <e p="ChildCategory.cs" t="Include" />
           <e p="MainCategory.cs" t="Include" />
+          <e p="Product.cs" t="Include" />
           <e p="SubCategory.cs" t="Include" />
           <e p="User.cs" t="Include" />
         </e>
@@ -74,6 +83,8 @@
         <e p="Repo" t="Include">
           <e p="AuthRepository.cs" t="Include" />
           <e p="IAuthRepository.cs" t="Include" />
+          <e p="IProductRepository.cs" t="Include" />
+          <e p="ProductRepository.cs" t="Include" />
         </e>
         <e p="Startup.cs" t="Include" />
       </e>
