@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user\\Desktop\\BakuCreativeProjects-Api\\BakuCreativeProjects\\bakucreativeprojects\\BakuCreativeProjects.csproj": {}
+    "C:\\Users\\user\\Desktop\\Misir\\BakuCreativeProjects-Api\\BakuCreativeProjects\\BakuCreativeProjects\\BakuCreativeProjects.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user\\Desktop\\BakuCreativeProjects-Api\\BakuCreativeProjects\\bakucreativeprojects\\BakuCreativeProjects.csproj": {
+    "C:\\Users\\user\\Desktop\\Misir\\BakuCreativeProjects-Api\\BakuCreativeProjects\\BakuCreativeProjects\\BakuCreativeProjects.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\Desktop\\BakuCreativeProjects-Api\\BakuCreativeProjects\\bakucreativeprojects\\BakuCreativeProjects.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Desktop\\Misir\\BakuCreativeProjects-Api\\BakuCreativeProjects\\BakuCreativeProjects\\BakuCreativeProjects.csproj",
         "projectName": "BakuCreativeProjects",
-        "projectPath": "C:\\Users\\user\\Desktop\\BakuCreativeProjects-Api\\BakuCreativeProjects\\bakucreativeprojects\\BakuCreativeProjects.csproj",
+        "projectPath": "C:\\Users\\user\\Desktop\\Misir\\BakuCreativeProjects-Api\\BakuCreativeProjects\\BakuCreativeProjects\\BakuCreativeProjects.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\Desktop\\BakuCreativeProjects-Api\\BakuCreativeProjects\\bakucreativeprojects\\obj\\",
+        "outputPath": "C:\\Users\\user\\Desktop\\Misir\\BakuCreativeProjects-Api\\BakuCreativeProjects\\BakuCreativeProjects\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -41,6 +41,10 @@
             "AutoMapper.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
               "version": "[8.1.1, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[3.1.0, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",

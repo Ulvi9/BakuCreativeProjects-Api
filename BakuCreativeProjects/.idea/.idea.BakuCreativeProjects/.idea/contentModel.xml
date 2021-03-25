@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ContentModelStore">
     <e p="C:\Users\user\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\user\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_BakuCreativeProjects.-2078959119.00" t="ExcludeRecursive" />
+    <e p="C:\Users\user\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_BakuCreativeProjects.-369954995.00" t="ExcludeRecursive" />
     <e p="C:\Users\user\AppData\Roaming\JetBrains\Rider2020.2\scratches" t="IncludeRecursive" />
-    <e p="C:\Users\user\Desktop\BakuCreativeProjects-Api\BakuCreativeProjects" t="IncludeFlat">
+    <e p="C:\Users\user\Desktop\Misir\BakuCreativeProjects-Api\BakuCreativeProjects" t="IncludeFlat">
       <e p="BakuCreativeProjects" t="IncludeRecursive">
         <e p=".gitignore" t="Include" />
         <e p="appsettings.Development.json" t="Include" />
@@ -12,6 +12,7 @@
         <e p="BakuCreativeProjects.csproj" t="IncludeRecursive" />
         <e p="bin" t="ExcludeRecursive" />
         <e p="Controllers" t="Include">
+          <e p="AuthController.cs" t="Include" />
           <e p="BaseController.cs" t="Include" />
           <e p="ChildCategoryController.cs" t="Include" />
           <e p="MainCategoryController.cs" t="Include" />
@@ -38,6 +39,10 @@
             <e p="SubCategoryUpdateDto.cs" t="Include" />
           </e>
           <e p="SubCategoryDto.cs" t="Include" />
+          <e p="user" t="Include">
+            <e p="UserForLoginDto.cs" t="Include" />
+            <e p="UserForRegisterDto.cs" t="Include" />
+          </e>
         </e>
         <e p="Mapper" t="Include">
           <e p="MapperProfile.cs" t="Include" />
@@ -45,12 +50,15 @@
         <e p="Migrations" t="Include">
           <e p="20210316182645_createDatabase.cs" t="Include" />
           <e p="20210316182645_createDatabase.Designer.cs" t="Include" />
+          <e p="20210324135204_addUserModel.cs" t="Include" />
+          <e p="20210324135204_addUserModel.Designer.cs" t="Include" />
           <e p="DataContextModelSnapshot.cs" t="Include" />
         </e>
         <e p="Models" t="Include">
           <e p="ChildCategory.cs" t="Include" />
           <e p="MainCategory.cs" t="Include" />
           <e p="SubCategory.cs" t="Include" />
+          <e p="User.cs" t="Include" />
         </e>
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
@@ -62,6 +70,10 @@
         <e p="Program.cs" t="Include" />
         <e p="Properties" t="Include">
           <e p="launchSettings.json" t="Include" />
+        </e>
+        <e p="Repo" t="Include">
+          <e p="AuthRepository.cs" t="Include" />
+          <e p="IAuthRepository.cs" t="Include" />
         </e>
         <e p="Startup.cs" t="Include" />
       </e>

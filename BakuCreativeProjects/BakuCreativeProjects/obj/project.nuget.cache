@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "sflMfQjB8ox8CQH8ijTqZiGeQAkw8ZQW70aJOCL7lfmzaAQtNDPlC6Cf1o9BdaAl4ql1Pso1UmBIH21fSz/RvQ==",
+  "dgSpecHash": "GFzfzbAEpe04BPA7X27SBHhHg4SWZEy2njMURauRP2CqbJMKNMO7XHUTtBuXKfzO/5wNphXdXxor/htn8J4CkA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\user\\Desktop\\BakuCreativeProjects-Api\\BakuCreativeProjects\\bakucreativeprojects\\BakuCreativeProjects.csproj",
+  "projectFilePath": "C:\\Users\\user\\Desktop\\Misir\\BakuCreativeProjects-Api\\BakuCreativeProjects\\BakuCreativeProjects\\BakuCreativeProjects.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\user\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\3.1.0\\microsoft.aspnetcore.authentication.jwtbearer.3.1.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.data.sqlclient\\2.0.1\\microsoft.data.sqlclient.2.0.1.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\2.0.1\\microsoft.data.sqlclient.sni.runtime.2.0.1.nupkg.sha512",

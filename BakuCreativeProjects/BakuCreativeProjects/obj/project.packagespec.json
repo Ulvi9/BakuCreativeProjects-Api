@@ -1,10 +1,10 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "C:\\Users\\user\\Desktop\\BakuCreativeProjects-Api\\BakuCreativeProjects\\BakuCreativeProjects\\BakuCreativeProjects.csproj",
+    "projectUniqueName": "C:\\Users\\user\\Desktop\\Misir\\BakuCreativeProjects-Api\\BakuCreativeProjects\\BakuCreativeProjects\\BakuCreativeProjects.csproj",
     "projectName": "BakuCreativeProjects",
-    "projectPath": "C:\\Users\\user\\Desktop\\BakuCreativeProjects-Api\\BakuCreativeProjects\\BakuCreativeProjects\\BakuCreativeProjects.csproj",
-    "outputPath": "C:\\Users\\user\\Desktop\\BakuCreativeProjects-Api\\BakuCreativeProjects\\BakuCreativeProjects\\obj\\",
+    "projectPath": "C:\\Users\\user\\Desktop\\Misir\\BakuCreativeProjects-Api\\BakuCreativeProjects\\BakuCreativeProjects\\BakuCreativeProjects.csproj",
+    "outputPath": "C:\\Users\\user\\Desktop\\Misir\\BakuCreativeProjects-Api\\BakuCreativeProjects\\BakuCreativeProjects\\obj\\",
     "projectStyle": "PackageReference",
     "originalTargetFrameworks": [
       "netcoreapp3.1"
@@ -30,6 +30,10 @@
         "AutoMapper.Extensions.Microsoft.DependencyInjection": {
           "target": "Package",
           "version": "[8.1.1, )"
+        },
+        "Microsoft.AspNetCore.Authentication.JwtBearer": {
+          "target": "Package",
+          "version": "[3.1.0, )"
         },
         "Microsoft.EntityFrameworkCore.Design": {
           "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
