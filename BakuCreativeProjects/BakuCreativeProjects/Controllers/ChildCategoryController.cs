@@ -31,6 +31,7 @@ namespace BakuCreativeProjects.Controllers
             var childCategories =await _context.ChildCategories
                 .Include(c=>c.SubCategory)
                 .ThenInclude(c=>c.MainCategory)
+                .Include(p=>p.Products)
                 .ToListAsync();
             var mapChildCategories = _mapper.Map<IEnumerable<ChildCategoryReturnDto>>(childCategories);
             return Ok(mapChildCategories);

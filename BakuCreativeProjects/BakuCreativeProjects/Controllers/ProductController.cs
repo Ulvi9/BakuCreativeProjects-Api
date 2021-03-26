@@ -61,7 +61,7 @@ namespace BakuCreativeProjects.Controllers
         /// </summary>
         /// <param name="product"></param>
         /// <returns></returns>
-        // POST api/<DepartmentController>
+        // POST api/<ProductController>
         [HttpPost]
         public async Task<ActionResult<ProductReturnDto>> Create([FromForm] ProductCreateDto productCreateDto)
         {
@@ -111,6 +111,37 @@ namespace BakuCreativeProjects.Controllers
             Product product = await _productRepository.DeleteProductAsync(id);
             if (product == null) return NotFound();
             return Ok();
+        }
+        
+        /// <summary>
+        /// Get Product from SubCategoryId
+        /// </summary>
+        /// <param name="id">for Product</param>
+        /// <returns></returns>
+        // GET api/<ProductController>/5
+        [HttpGet("GetProductBySubCategoryId/{id}")]
+        public async Task<ActionResult<IEnumerable<ProductReturnDto>>> GetProductBySubCategoryId(int id)
+        {
+            var products = await _productRepository.GetProductsBySubCategoryIdAsync(id);
+            if (products == null) return NotFound();
+            var mapperProducts = _mapper.Map<IEnumerable<ProductReturnDto>>(products);
+            
+            return Ok(mapperProducts);
+        }
+        /// <summary>
+        /// Get Product from ChildCatogryId
+        /// </summary>
+        /// <param name="id">for Product</param>
+        /// <returns></returns>
+        // GET api/<ProductController>/5
+        [HttpGet("GetProductByChildCategoryId/{id}")]
+        public async Task<ActionResult<IEnumerable<ProductReturnDto>>> GetProductByChildCategoryId(int id)
+        {
+            var products = await _productRepository.GetProductsByChildCategoryIdAsync(id);
+            if (products == null) return NotFound();
+            var mapperProducts = _mapper.Map<IEnumerable<ProductReturnDto>>(products);
+            
+            return Ok(mapperProducts);
         }
     }
 }

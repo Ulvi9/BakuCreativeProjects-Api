@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Linq;
 using System.Threading.Tasks;
 using BakuCreativeProjects.Data;
 using BakuCreativeProjects.Models;
@@ -29,6 +30,25 @@ namespace BakuCreativeProjects.Repo
                 .Include(p=>p.Photos)
                 .FirstOrDefaultAsync(p => p.Id == id);
             return product;
+        }
+
+        public async Task<List<Product>> GetProductsBySubCategoryIdAsync(int id)
+        {
+            var products = await _dataContext.Products
+                .Include(i=>i.Photos)
+                .Where(x => x.ChildCategory.SubCategoryId == id)
+                .ToListAsync();
+            return products;
+
+        }
+        public async Task<List<Product>> GetProductsByChildCategoryIdAsync(int id)
+        {
+            var products = await _dataContext.Products
+                .Include(i=>i.Photos)
+                .Where(x => x.ChildCategoryId == id)
+                .ToListAsync();
+            return products;
+
         }
 
         public async Task<Product> CreateProductAsync(Product product)

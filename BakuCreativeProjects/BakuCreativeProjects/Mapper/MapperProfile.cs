@@ -49,8 +49,8 @@ namespace BakuCreativeProjects.Mapper
                 .ForMember(p => p.ChildCategory, c =>
                     c.MapFrom(p => p.ChildCategory.Name))
                 .ForMember(p => p.PhotoUrl, c =>
-                    c.MapFrom(p =>BaseUrlProduct+ p.Photos
-                        .FirstOrDefault(p=>p.IsMain).Url));;
+                    c.MapFrom(p => p.Photos
+                        .Select(p=>BaseUrlProduct+p.Url)));
             CreateMap<ProductCreateDto,Product>().ReverseMap();
             CreateMap<ProductUpdateDto,Product>().ReverseMap();
 
