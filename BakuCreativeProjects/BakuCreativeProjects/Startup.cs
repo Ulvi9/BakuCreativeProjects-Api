@@ -29,6 +29,9 @@ namespace BakuCreativeProjects
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
+            //     .AddNewtonsoftJson(options =>
+            //     options.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore
+            // );;
             services.AddDbContext<DataContext>(option =>
             {
                 option.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"));

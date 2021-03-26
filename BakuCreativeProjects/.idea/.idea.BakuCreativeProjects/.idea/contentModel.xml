@@ -50,6 +50,9 @@
             <e p="UserForRegisterDto.cs" t="Include" />
           </e>
         </e>
+        <e p="Helpers" t="Include">
+          <e p="ImageExtentions.cs" t="Include" />
+        </e>
         <e p="Mapper" t="Include">
           <e p="MapperProfile.cs" t="Include" />
         </e>
@@ -60,11 +63,14 @@
           <e p="20210324135204_addUserModel.Designer.cs" t="Include" />
           <e p="20210325074300_addinProductTable.cs" t="Include" />
           <e p="20210325074300_addinProductTable.Designer.cs" t="Include" />
+          <e p="20210326113309_ProductImage.cs" t="Include" />
+          <e p="20210326113309_ProductImage.Designer.cs" t="Include" />
           <e p="DataContextModelSnapshot.cs" t="Include" />
         </e>
         <e p="Models" t="Include">
           <e p="ChildCategory.cs" t="Include" />
           <e p="MainCategory.cs" t="Include" />
+          <e p="Photo.cs" t="Include" />
           <e p="Product.cs" t="Include" />
           <e p="SubCategory.cs" t="Include" />
           <e p="User.cs" t="Include" />
@@ -87,6 +93,14 @@
           <e p="ProductRepository.cs" t="Include" />
         </e>
         <e p="Startup.cs" t="Include" />
+        <e p="wwwroot" t="Include">
+          <e p="images" t="Include">
+            <e p="products" t="Include">
+              <e p="0ecfdd80-7ac5-4fe1-a595-b9cbdab1bd6dmouse.jpg" t="Include" />
+              <e p="28e52a3c-b096-4dd0-a3e9-e882f7a7cd4aphone.jpg" t="Include" />
+            </e>
+          </e>
+        </e>
       </e>
       <e p="BakuCreativeProjects.sln" t="IncludeFlat" />
       <e p="packages" t="ExcludeRecursive" />

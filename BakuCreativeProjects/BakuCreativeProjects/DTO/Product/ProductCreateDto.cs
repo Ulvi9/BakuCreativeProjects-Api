@@ -1,4 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+using Microsoft.AspNetCore.Http;
 
 namespace BakuCreativeProjects.DTO
 {
@@ -9,5 +11,7 @@ namespace BakuCreativeProjects.DTO
         
         [Required]
         public int ChildCategoryId { get; set; }
+        [NotMapped,Required]
+        public IFormFile[] Images { get; set; }
     }
 }

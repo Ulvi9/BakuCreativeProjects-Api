@@ -16,23 +16,26 @@ namespace BakuCreativeProjects.Repo
         public async Task<List<Product>> GetProductAsync()
         {
             var products =await  _dataContext.Products
-                .Include(c => c.ChildCategory).ToListAsync();
+                .Include(c => c.ChildCategory)
+                .Include(p=>p.Photos)
+                .ToListAsync();
             return products;
         }
 
         public async Task<Product> GetProductByIdAsync(int id)
         {
             var product = await _dataContext.Products
+                .Include(c => c.ChildCategory)
+                .Include(p=>p.Photos)
                 .FirstOrDefaultAsync(p => p.Id == id);
             return product;
         }
 
         public async Task<Product> CreateProductAsync(Product product)
-        {
-            await _dataContext.Products.AddAsync(product);
+         {
+             await _dataContext.Products.AddAsync(product);
             await _dataContext.SaveChangesAsync();
             return product;
-            throw new System.NotImplementedException();
         }
 
         public async Task<Product> UpdateProductAsync(Product product)

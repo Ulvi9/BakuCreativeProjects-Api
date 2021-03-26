@@ -69,3 +69,6 @@ C:\Users\user\Desktop\Misir\BakuCreativeProjects-Api\BakuCreativeProjects\BakuCr
 C:\Users\user\Desktop\Misir\BakuCreativeProjects-Api\BakuCreativeProjects\BakuCreativeProjects\obj\Debug\netcoreapp3.1\BakuCreativeProjects.pdb
 C:\Users\user\Desktop\Misir\BakuCreativeProjects-Api\BakuCreativeProjects\BakuCreativeProjects\obj\Debug\netcoreapp3.1\BakuCreativeProjects.genruntimeconfig.cache
 C:\Users\user\Desktop\Misir\BakuCreativeProjects-Api\BakuCreativeProjects\BakuCreativeProjects\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\user\Desktop\Misir\BakuCreativeProjects-Api\BakuCreativeProjects\BakuCreativeProjects\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\user\Desktop\Misir\BakuCreativeProjects-Api\BakuCreativeProjects\BakuCreativeProjects\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\user\Desktop\Misir\BakuCreativeProjects-Api\BakuCreativeProjects\BakuCreativeProjects\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll

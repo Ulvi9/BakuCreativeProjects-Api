@@ -22,36 +22,47 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="13b374f5-1962-4ae1-8c2a-d61b15bb897d" name="Default Changelist" comment="adding Register and Login">
-      <change afterPath="$PROJECT_DIR$/BakuCreativeProjects/Controllers/ProductController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BakuCreativeProjects/DTO/Product/ProductCreateDto.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BakuCreativeProjects/DTO/Product/ProductReturnDto.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BakuCreativeProjects/DTO/Product/ProductUpdateDto.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BakuCreativeProjects/Migrations/20210325074300_addinProductTable.Designer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BakuCreativeProjects/Migrations/20210325074300_addinProductTable.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BakuCreativeProjects/Models/Product.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BakuCreativeProjects/Repo/IProductRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BakuCreativeProjects/Repo/ProductRepository.cs" afterDir="false" />
+    <list default="true" id="13b374f5-1962-4ae1-8c2a-d61b15bb897d" name="Default Changelist" comment="adding ProductApi">
+      <change afterPath="$PROJECT_DIR$/BakuCreativeProjects/Helpers/ImageExtentions.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BakuCreativeProjects/Migrations/20210326113309_ProductImage.Designer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BakuCreativeProjects/Migrations/20210326113309_ProductImage.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BakuCreativeProjects/Models/Photo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BakuCreativeProjects/wwwroot/images/products/0ecfdd80-7ac5-4fe1-a595-b9cbdab1bd6dmouse.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BakuCreativeProjects/wwwroot/images/products/28e52a3c-b096-4dd0-a3e9-e882f7a7cd4aphone.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BakuCreativeProjects/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BakuCreativeProjects/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BakuCreativeProjects/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BakuCreativeProjects/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BakuCreativeProjects/BakuCreativeProjects.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/BakuCreativeProjects/BakuCreativeProjects.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BakuCreativeProjects/Controllers/ChildCategoryController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BakuCreativeProjects/Controllers/ChildCategoryController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BakuCreativeProjects/Controllers/MainCategoryController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BakuCreativeProjects/Controllers/MainCategoryController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BakuCreativeProjects/Controllers/SubCategoryController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BakuCreativeProjects/Controllers/SubCategoryController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BakuCreativeProjects/Controllers/ProductController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BakuCreativeProjects/Controllers/ProductController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BakuCreativeProjects/DTO/ChildCategory/ChildCategoryReturnDto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BakuCreativeProjects/DTO/ChildCategory/ChildCategoryReturnDto.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BakuCreativeProjects/DTO/ChildCategoryDto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BakuCreativeProjects/DTO/ChildCategoryDto.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BakuCreativeProjects/DTO/MainCategory/MainCategoryReturnDto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BakuCreativeProjects/DTO/MainCategory/MainCategoryReturnDto.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BakuCreativeProjects/DTO/Product/ProductCreateDto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BakuCreativeProjects/DTO/Product/ProductCreateDto.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BakuCreativeProjects/DTO/Product/ProductReturnDto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BakuCreativeProjects/DTO/Product/ProductReturnDto.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BakuCreativeProjects/DTO/SubCategory/SubCategoryReturnDto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BakuCreativeProjects/DTO/SubCategory/SubCategoryReturnDto.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BakuCreativeProjects/DTO/SubCategoryDto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BakuCreativeProjects/DTO/SubCategoryDto.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BakuCreativeProjects/Data/DataContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BakuCreativeProjects/Data/DataContext.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BakuCreativeProjects/Mapper/MapperProfile.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BakuCreativeProjects/Mapper/MapperProfile.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BakuCreativeProjects/Migrations/DataContextModelSnapshot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BakuCreativeProjects/Migrations/DataContextModelSnapshot.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BakuCreativeProjects/Models/ChildCategory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BakuCreativeProjects/Models/ChildCategory.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BakuCreativeProjects/Models/Product.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BakuCreativeProjects/Models/Product.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BakuCreativeProjects/Repo/ProductRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BakuCreativeProjects/Repo/ProductRepository.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BakuCreativeProjects/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BakuCreativeProjects/Startup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BakuCreativeProjects/bin/Debug/netcoreapp3.1/BakuCreativeProjects.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/BakuCreativeProjects/bin/Debug/netcoreapp3.1/BakuCreativeProjects.deps.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BakuCreativeProjects/bin/Debug/netcoreapp3.1/BakuCreativeProjects.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BakuCreativeProjects/bin/Debug/netcoreapp3.1/BakuCreativeProjects.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BakuCreativeProjects/bin/Debug/netcoreapp3.1/BakuCreativeProjects.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BakuCreativeProjects/bin/Debug/netcoreapp3.1/BakuCreativeProjects.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BakuCreativeProjects/bin/Debug/netcoreapp3.1/Newtonsoft.Json.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BakuCreativeProjects/bin/Debug/netcoreapp3.1/Newtonsoft.Json.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BakuCreativeProjects/obj/BakuCreativeProjects.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/BakuCreativeProjects/obj/BakuCreativeProjects.csproj.nuget.dgspec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BakuCreativeProjects/obj/BakuCreativeProjects.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/BakuCreativeProjects/obj/BakuCreativeProjects.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BakuCreativeProjects/obj/Debug/netcoreapp3.1/BakuCreativeProjects.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BakuCreativeProjects/obj/Debug/netcoreapp3.1/BakuCreativeProjects.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BakuCreativeProjects/obj/Debug/netcoreapp3.1/BakuCreativeProjects.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BakuCreativeProjects/obj/Debug/netcoreapp3.1/BakuCreativeProjects.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BakuCreativeProjects/obj/Debug/netcoreapp3.1/BakuCreativeProjects.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/BakuCreativeProjects/obj/Debug/netcoreapp3.1/BakuCreativeProjects.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BakuCreativeProjects/obj/Debug/netcoreapp3.1/BakuCreativeProjects.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BakuCreativeProjects/obj/Debug/netcoreapp3.1/BakuCreativeProjects.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BakuCreativeProjects/obj/Debug/netcoreapp3.1/BakuCreativeProjects.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BakuCreativeProjects/obj/Debug/netcoreapp3.1/BakuCreativeProjects.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BakuCreativeProjects/obj/Debug/netcoreapp3.1/BakuCreativeProjects.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BakuCreativeProjects/obj/Debug/netcoreapp3.1/BakuCreativeProjects.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BakuCreativeProjects/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/BakuCreativeProjects/obj/project.assets.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BakuCreativeProjects/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BakuCreativeProjects/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BakuCreativeProjects/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/BakuCreativeProjects/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BakuCreativeProjects/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/BakuCreativeProjects/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +73,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/A9C37662-579A-499A-A4DE-B3C85349280D/262/AsyncValueTaskMethodBuilder.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/A9C37662-579A-499A-A4DE-B3C85349280D/25F/AsyncMethodBuilder.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/A9C37662-579A-499A-A4DE-B3C85349280D/14E/ExecutionContext.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/441B1F1D-0007-4533-BF4B-294EFD4F790B/F3/ActionMethodExecutor.cs" root0="SKIP_HIGHLIGHTING" />
@@ -76,21 +88,31 @@
         <option value="$PROJECT_DIR$/BakuCreativeProjects/Repo/AuthRepository.cs" />
         <option value="$PROJECT_DIR$/BakuCreativeProjects/appsettings.json" />
         <option value="$PROJECT_DIR$/BakuCreativeProjects/Controllers/AuthController.cs" />
-        <option value="$PROJECT_DIR$/BakuCreativeProjects/Models/Product.cs" />
         <option value="$PROJECT_DIR$/BakuCreativeProjects/Models/ChildCategory.cs" />
-        <option value="$PROJECT_DIR$/BakuCreativeProjects/Data/DataContext.cs" />
-        <option value="$PROJECT_DIR$/BakuCreativeProjects/DTO/Product/ProductReturnDto.cs" />
-        <option value="$PROJECT_DIR$/BakuCreativeProjects/Startup.cs" />
         <option value="$PROJECT_DIR$/BakuCreativeProjects/DTO/ProductCreateDto.cs" />
         <option value="$PROJECT_DIR$/BakuCreativeProjects/Controllers/MainCategoryController.cs" />
-        <option value="$PROJECT_DIR$/BakuCreativeProjects/DTO/MainCategory/MainCategoryReturnDto.cs" />
         <option value="$PROJECT_DIR$/BakuCreativeProjects/DTO/Product/ProductUpdateDto.cs" />
-        <option value="$PROJECT_DIR$/BakuCreativeProjects/DTO/ChildCategory/ChildCategoryReturnDto.cs" />
-        <option value="$PROJECT_DIR$/BakuCreativeProjects/Mapper/MapperProfile.cs" />
-        <option value="$PROJECT_DIR$/BakuCreativeProjects/Controllers/SubCategoryController.cs" />
-        <option value="$PROJECT_DIR$/BakuCreativeProjects/Controllers/ChildCategoryController.cs" />
         <option value="$PROJECT_DIR$/BakuCreativeProjects/Repo/IProductRepository.cs" />
+        <option value="$PROJECT_DIR$/BakuCreativeProjects/Controllers/SubCategoryController.cs" />
+        <option value="$PROJECT_DIR$/BakuCreativeProjects/DTO/MainCategory/MainCategoryReturnDto.cs" />
+        <option value="$PROJECT_DIR$/BakuCreativeProjects/DTO/SubCategory/SubCategoryReturnDto.cs" />
+        <option value="$PROJECT_DIR$/BakuCreativeProjects/DTO/SubCategoryDto.cs" />
+        <option value="$PROJECT_DIR$/BakuCreativeProjects/DTO/ChildCategoryDto.cs" />
+        <option value="$PROJECT_DIR$/BakuCreativeProjects/Startup.cs" />
+        <option value="$PROJECT_DIR$/BakuCreativeProjects/DTO/LoremDto.cs" />
+        <option value="$PROJECT_DIR$/BakuCreativeProjects/Controllers/ChildCategoryController.cs" />
+        <option value="$PROJECT_DIR$/BakuCreativeProjects/DTO/ChildCategory/ChildCategoryReturnDto.cs" />
+        <option value="$PROJECT_DIR$/BakuCreativeProjects/Models/Phot.cs" />
+        <option value="$PROJECT_DIR$/BakuCreativeProjects/Models/Photo.cshtml" />
+        <option value="$PROJECT_DIR$/BakuCreativeProjects/Data/DataContext.cs" />
+        <option value="$PROJECT_DIR$/BakuCreativeProjects/Helpers/Extentions.cs" />
+        <option value="$PROJECT_DIR$/BakuCreativeProjects/Helpers/ImageExtentions.cs" />
+        <option value="$PROJECT_DIR$/BakuCreativeProjects/Models/Product.cs" />
+        <option value="$PROJECT_DIR$/BakuCreativeProjects/DTO/Product/ProductCreateDto.cs" />
         <option value="$PROJECT_DIR$/BakuCreativeProjects/Controllers/ProductController.cs" />
+        <option value="$PROJECT_DIR$/BakuCreativeProjects/Models/Photo.cs" />
+        <option value="$PROJECT_DIR$/BakuCreativeProjects/DTO/Product/ProductReturnDto.cs" />
+        <option value="$PROJECT_DIR$/BakuCreativeProjects/Mapper/MapperProfile.cs" />
         <option value="$PROJECT_DIR$/BakuCreativeProjects/Repo/ProductRepository.cs" />
       </list>
     </option>
@@ -157,7 +179,9 @@
       <workItem from="1616593268360" duration="462000" />
       <workItem from="1616593853759" duration="3896000" />
       <workItem from="1616656316882" duration="514000" />
-      <workItem from="1616656947451" duration="17450000" />
+      <workItem from="1616656947451" duration="22478000" />
+      <workItem from="1616700676475" duration="2496000" />
+      <workItem from="1616740320869" duration="16647000" />
     </task>
     <task id="LOCAL-00001" summary="adding seedData">
       <created>1615919628713</created>
@@ -173,7 +197,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616657485911</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="adding ProductApi">
+      <created>1616679480288</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1616679480289</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -199,96 +230,120 @@
     <MESSAGE value="adding seedData" />
     <MESSAGE value="adding RegisterLogin" />
     <MESSAGE value="adding Register and Login" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding Register and Login" />
+    <MESSAGE value="adding ProductApi" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding ProductApi" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="456" height="436" key="DebuggerActiveHint" timestamp="1616676848414">
+    <state width="496" height="436" key="DebuggerActiveHint" timestamp="1616761490259">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="456" height="436" key="DebuggerActiveHint/0.0.1366.728@0.0.1366.728" timestamp="1616676848414" />
-    <state width="1306" height="96" key="GridCell.Tab.0.bottom" timestamp="1616676989646">
+    <state width="496" height="436" key="DebuggerActiveHint/0.0.1366.728@0.0.1366.728" timestamp="1616761490259" />
+    <state width="1306" height="82" key="GridCell.Tab.0.bottom" timestamp="1616761978423">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1306" height="96" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1616676989646" />
-    <state width="1306" height="96" key="GridCell.Tab.0.center" timestamp="1616676989646">
+    <state width="1306" height="82" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1616761978423" />
+    <state width="1306" height="82" key="GridCell.Tab.0.center" timestamp="1616761978423">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1306" height="96" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1616676989646" />
-    <state width="1306" height="96" key="GridCell.Tab.0.left" timestamp="1616676989646">
+    <state width="1306" height="82" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1616761978423" />
+    <state width="1306" height="82" key="GridCell.Tab.0.left" timestamp="1616761978423">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1306" height="96" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1616676989646" />
-    <state width="1306" height="96" key="GridCell.Tab.0.right" timestamp="1616676989646">
+    <state width="1306" height="82" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1616761978423" />
+    <state width="1306" height="82" key="GridCell.Tab.0.right" timestamp="1616761978423">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1306" height="96" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1616676989646" />
-    <state width="1306" height="138" key="GridCell.Tab.1.bottom" timestamp="1616676985141">
+    <state width="1306" height="82" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1616761978423" />
+    <state width="1306" height="138" key="GridCell.Tab.1.bottom" timestamp="1616761599154">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1306" height="138" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1616676985141" />
-    <state width="1306" height="138" key="GridCell.Tab.1.center" timestamp="1616676985141">
+    <state width="1306" height="138" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1616761599154" />
+    <state width="1306" height="138" key="GridCell.Tab.1.center" timestamp="1616761599153">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1306" height="138" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1616676985141" />
-    <state width="1306" height="138" key="GridCell.Tab.1.left" timestamp="1616676985141">
+    <state width="1306" height="138" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1616761599153" />
+    <state width="1306" height="138" key="GridCell.Tab.1.left" timestamp="1616761599153">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1306" height="138" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1616676985141" />
-    <state width="1306" height="138" key="GridCell.Tab.1.right" timestamp="1616676985141">
+    <state width="1306" height="138" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1616761599153" />
+    <state width="1306" height="138" key="GridCell.Tab.1.right" timestamp="1616761599153">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1306" height="138" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1616676985141" />
-    <state width="1306" height="138" key="GridCell.Tab.2.bottom" timestamp="1616676985142">
+    <state width="1306" height="138" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1616761599153" />
+    <state width="1306" height="138" key="GridCell.Tab.2.bottom" timestamp="1616761599154">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1306" height="138" key="GridCell.Tab.2.bottom/0.0.1366.728@0.0.1366.728" timestamp="1616676985142" />
-    <state width="1306" height="138" key="GridCell.Tab.2.center" timestamp="1616676985142">
+    <state width="1306" height="138" key="GridCell.Tab.2.bottom/0.0.1366.728@0.0.1366.728" timestamp="1616761599154" />
+    <state width="1306" height="138" key="GridCell.Tab.2.center" timestamp="1616761599154">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1306" height="138" key="GridCell.Tab.2.center/0.0.1366.728@0.0.1366.728" timestamp="1616676985142" />
-    <state width="1306" height="138" key="GridCell.Tab.2.left" timestamp="1616676985141">
+    <state width="1306" height="138" key="GridCell.Tab.2.center/0.0.1366.728@0.0.1366.728" timestamp="1616761599154" />
+    <state width="1306" height="138" key="GridCell.Tab.2.left" timestamp="1616761599154">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1306" height="138" key="GridCell.Tab.2.left/0.0.1366.728@0.0.1366.728" timestamp="1616676985141" />
-    <state width="1306" height="138" key="GridCell.Tab.2.right" timestamp="1616676985142">
+    <state width="1306" height="138" key="GridCell.Tab.2.left/0.0.1366.728@0.0.1366.728" timestamp="1616761599154" />
+    <state width="1306" height="138" key="GridCell.Tab.2.right" timestamp="1616761599154">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1306" height="138" key="GridCell.Tab.2.right/0.0.1366.728@0.0.1366.728" timestamp="1616676985142" />
-    <state width="1306" height="138" key="GridCell.Tab.3.bottom" timestamp="1616676985142">
+    <state width="1306" height="138" key="GridCell.Tab.2.right/0.0.1366.728@0.0.1366.728" timestamp="1616761599154" />
+    <state width="1306" height="138" key="GridCell.Tab.3.bottom" timestamp="1616761599154">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1306" height="138" key="GridCell.Tab.3.bottom/0.0.1366.728@0.0.1366.728" timestamp="1616676985142" />
-    <state width="1306" height="138" key="GridCell.Tab.3.center" timestamp="1616676985142">
+    <state width="1306" height="138" key="GridCell.Tab.3.bottom/0.0.1366.728@0.0.1366.728" timestamp="1616761599154" />
+    <state width="1306" height="138" key="GridCell.Tab.3.center" timestamp="1616761599154">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1306" height="138" key="GridCell.Tab.3.center/0.0.1366.728@0.0.1366.728" timestamp="1616676985142" />
-    <state width="1306" height="138" key="GridCell.Tab.3.left" timestamp="1616676985142">
+    <state width="1306" height="138" key="GridCell.Tab.3.center/0.0.1366.728@0.0.1366.728" timestamp="1616761599154" />
+    <state width="1306" height="138" key="GridCell.Tab.3.left" timestamp="1616761599154">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1306" height="138" key="GridCell.Tab.3.left/0.0.1366.728@0.0.1366.728" timestamp="1616676985142" />
-    <state width="1306" height="138" key="GridCell.Tab.3.right" timestamp="1616676985142">
+    <state width="1306" height="138" key="GridCell.Tab.3.left/0.0.1366.728@0.0.1366.728" timestamp="1616761599154" />
+    <state width="1306" height="138" key="GridCell.Tab.3.right" timestamp="1616761599154">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1306" height="138" key="GridCell.Tab.3.right/0.0.1366.728@0.0.1366.728" timestamp="1616676985142" />
-    <state width="1306" height="138" key="GridCell.Tab.4.bottom" timestamp="1616676985143">
+    <state width="1306" height="138" key="GridCell.Tab.3.right/0.0.1366.728@0.0.1366.728" timestamp="1616761599154" />
+    <state width="1306" height="138" key="GridCell.Tab.4.bottom" timestamp="1616761599155">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1306" height="138" key="GridCell.Tab.4.bottom/0.0.1366.728@0.0.1366.728" timestamp="1616676985143" />
-    <state width="1306" height="138" key="GridCell.Tab.4.center" timestamp="1616676985143">
+    <state width="1306" height="138" key="GridCell.Tab.4.bottom/0.0.1366.728@0.0.1366.728" timestamp="1616761599155" />
+    <state width="1306" height="138" key="GridCell.Tab.4.center" timestamp="1616761599155">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1306" height="138" key="GridCell.Tab.4.center/0.0.1366.728@0.0.1366.728" timestamp="1616676985143" />
-    <state width="1306" height="138" key="GridCell.Tab.4.left" timestamp="1616676985142">
+    <state width="1306" height="138" key="GridCell.Tab.4.center/0.0.1366.728@0.0.1366.728" timestamp="1616761599155" />
+    <state width="1306" height="138" key="GridCell.Tab.4.left" timestamp="1616761599154">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1306" height="138" key="GridCell.Tab.4.left/0.0.1366.728@0.0.1366.728" timestamp="1616676985142" />
-    <state width="1306" height="138" key="GridCell.Tab.4.right" timestamp="1616676985143">
+    <state width="1306" height="138" key="GridCell.Tab.4.left/0.0.1366.728@0.0.1366.728" timestamp="1616761599154" />
+    <state width="1306" height="138" key="GridCell.Tab.4.right" timestamp="1616761599155">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1306" height="138" key="GridCell.Tab.4.right/0.0.1366.728@0.0.1366.728" timestamp="1616676985143" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1616657492132">
+    <state width="1306" height="138" key="GridCell.Tab.4.right/0.0.1366.728@0.0.1366.728" timestamp="1616761599155" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1616679485924">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1616657492132" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1616679485924" />
+    <state x="339" y="164" key="run.anything.popup" timestamp="1616746066316">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="164" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1616746066316" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/BakuCreativeProjects/Controllers/ProductController.cs</url>
+          <line>66</line>
+          <properties documentPath="C:\Users\user\Desktop\Misir\BakuCreativeProjects-Api\BakuCreativeProjects\BakuCreativeProjects\Controllers\ProductController.cs" initialLine="66">
+            <startOffsets>
+              <option value="2233" />
+            </startOffsets>
+            <endOffsets>
+              <option value="2234" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

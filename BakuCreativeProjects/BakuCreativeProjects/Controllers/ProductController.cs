@@ -1,11 +1,14 @@
 ﻿using System.Collections.Generic;
+using System.IO;
 using System.Threading.Tasks;
 using AutoMapper;
 using BakuCreativeProjects.DTO;
 using BakuCreativeProjects.DTO.Product;
+using BakuCreativeProjects.Helpers;
 using BakuCreativeProjects.Models;
 using BakuCreativeProjects.Repo;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace BakuCreativeProjects.Controllers
@@ -60,11 +63,24 @@ namespace BakuCreativeProjects.Controllers
         /// <returns></returns>
         // POST api/<DepartmentController>
         [HttpPost]
-        public async Task<ActionResult<ProductReturnDto>> Create([FromBody] ProductCreateDto productCreateDto)
+        public async Task<ActionResult<ProductReturnDto>> Create([FromForm] ProductCreateDto productCreateDto)
         {
             var mapperProduct = _mapper.Map<Product>(productCreateDto);
+            var listPhoto=new List<Photo>();
+            foreach (IFormFile image in productCreateDto.Images)
+            {
+                string folderName = Path.Combine("images", "products");
+                string fileName = await image.SaveImg(_env.WebRootPath, folderName);
+                var newPhoto = new Photo
+                {
+                    Url = fileName,
+                    ProductId = mapperProduct.Id
+                };
+                listPhoto.Add(newPhoto);
+            }
+            mapperProduct.Photos=listPhoto;
             await _productRepository.CreateProductAsync(mapperProduct);
-            return Ok(mapperProduct);
+            return Ok();
         }
         /// <summary>
         /// Update Product
